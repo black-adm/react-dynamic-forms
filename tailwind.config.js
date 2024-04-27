@@ -53,6 +53,9 @@ module.exports = {
           foreground: 'hsl(var(--card-foreground))',
         },
       },
+      backgroundImage: {
+        marketing: "url('/marketing.png')",
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
